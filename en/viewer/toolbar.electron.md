@@ -4,7 +4,7 @@ The toolbar provides quick access to various tools and functions for manipulatin
 
 ## Settings & Study
 
-- <RiSave3Fill /> **Open**: Opens local DICOM files. Its menu provides:
+- <RiFolderOpenLine /> **Open**: Opens local DICOM files. Its menu provides:
   - **Open File...**: Opens one or more DICOM files from your computer.
   - **Open Folder...**: Opens a whole folder and loads every DICOM file it contains.
 

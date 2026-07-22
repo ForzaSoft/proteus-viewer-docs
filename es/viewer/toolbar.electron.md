@@ -4,7 +4,7 @@ La barra de herramientas proporciona acceso rápido a diversas herramientas y fu
 
 ## Configuración y Estudio
 
-- <RiSave3Fill /> **Abrir**: Abre archivos DICOM locales. Su menú ofrece:
+- <RiFolderOpenLine /> **Abrir**: Abre archivos DICOM locales. Su menú ofrece:
   - **Abrir Archivo...**: Abre uno o más archivos DICOM desde su equipo.
   - **Abrir Carpeta...**: Abre una carpeta completa y carga todos los archivos DICOM que contiene.
 
