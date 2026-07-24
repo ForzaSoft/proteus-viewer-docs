@@ -9,6 +9,7 @@ Settings are organized into two tabs: **General** and **DICOM**. Click **Save** 
 General settings control overall application behavior.
 
 - **Logs Level**: Controls how much detail the application records in its logs. Choose **Info** for normal use, **Debug** for detailed troubleshooting, or **Error** to record only failures.
+- **Local DICOM Storage Path (read-only)**: Shows the folder where studies stored on this computer are kept. The location is fixed by the application and cannot be edited, but the text can be selected and copied.
 
 ## DICOM
 

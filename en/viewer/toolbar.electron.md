@@ -8,7 +8,11 @@ The toolbar provides quick access to various tools and functions for manipulatin
   - **Open File...**: Opens one or more DICOM files from your computer.
   - **Open Folder...**: Opens a whole folder and loads every DICOM file it contains.
 
-- <RiDatabase2Fill /> **Study Search**: Opens the study search dialog to load additional studies from the PACS.
+- <RiDatabase2Fill /> **Study Search**: Opens the study search dialog to load additional studies. Clicking the button searches the remote PACS Locations; its menu provides:
+  - **Remote**: Searches the configured PACS Locations. The source list is empty when no Location is configured. Its **Save to Local** button retrieves the selected study straight into the local storage without opening it, so it stays available offline.
+  - **Local**: Searches the studies stored on this computer. The source is fixed to **Local** and cannot be changed. Its **Import** button adds DICOM files or a whole folder to the local storage, so the studies stay available after closing the application.
+
+- <RiSave3Fill /> **Save to Local**: Keeps the study currently open in the local storage. Enabled only for studies retrieved from a remote PACS or opened from files, since studies already in the local storage have nothing to save. The study stays open while it is saved.
 
 - <BiCog /> **Settings**: Opens the application settings to configure DICOM sources, printers, and viewer preferences.
 

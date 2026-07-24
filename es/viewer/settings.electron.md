@@ -9,6 +9,7 @@ La configuración se organiza en dos pestañas: **General** y **DICOM**. Haga cl
 La configuración general controla el comportamiento global de la aplicación.
 
 - **Nivel de Registros**: Controla el nivel de detalle que la aplicación guarda en sus registros. Elija **Info** para el uso normal, **Debug** para diagnóstico detallado o **Error** para registrar solo los fallos.
+- **Ruta de Almacenamiento DICOM Local (solo lectura)**: Muestra la carpeta donde se guardan los estudios almacenados en este equipo. La ubicación la fija la aplicación y no se puede editar, pero el texto se puede seleccionar y copiar.
 
 ## DICOM
 
