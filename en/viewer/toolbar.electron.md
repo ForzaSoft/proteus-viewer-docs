@@ -9,8 +9,10 @@ The toolbar provides quick access to various tools and functions for manipulatin
   - **Open Folder...**: Opens a whole folder and loads every DICOM file it contains.
 
 - <RiDatabase2Fill /> **Study Search**: Opens the study search dialog to load additional studies. Clicking the button searches the remote PACS Locations; its menu provides:
-  - **Remote**: Searches the configured PACS Locations. The source list is empty when no Location is configured. Its **Save to Local** button retrieves the selected study straight into the local storage without opening it, so it stays available offline.
-  - **Local**: Searches the studies stored on this computer. The source is fixed to **Local** and cannot be changed. Its **Import** button adds DICOM files or a whole folder to the local storage, so the studies stay available after closing the application.
+  - **Remote**: Searches the configured PACS Locations. The source list is empty when no Location is configured.
+  - **Local**: Searches the studies stored on this computer, listing them all as soon as it opens.
+
+  See the [Study Search Guide](./study-search.electron.md) for the filters, and for saving studies to the local storage.
 
 - <RiSave3Fill /> **Save to Local**: Keeps the study currently open in the local storage. Enabled only for studies retrieved from a remote PACS or opened from files, since studies already in the local storage have nothing to save. The study stays open while it is saved.
 

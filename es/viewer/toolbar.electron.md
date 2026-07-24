@@ -9,8 +9,10 @@ La barra de herramientas proporciona acceso rápido a diversas herramientas y fu
   - **Abrir Carpeta...**: Abre una carpeta completa y carga todos los archivos DICOM que contiene.
 
 - <RiDatabase2Fill /> **Búsqueda de Estudio**: Abre el diálogo de búsqueda de estudios para cargar estudios adicionales. Al hacer clic en el botón se buscan las Ubicaciones PACS remotas; su menú ofrece:
-  - **Remoto**: Busca en las Ubicaciones PACS configuradas. La lista de fuentes está vacía si no hay ninguna Ubicación configurada. Su botón **Guardar en Local** recupera el estudio seleccionado directamente al almacenamiento local sin abrirlo, de modo que queda disponible sin conexión.
-  - **Local**: Busca en los estudios almacenados en este equipo. La fuente queda fijada en **Local** y no se puede cambiar. Su botón **Importar** agrega archivos DICOM o una carpeta completa al almacenamiento local, de modo que los estudios siguen disponibles tras cerrar la aplicación.
+  - **Remoto**: Busca en las Ubicaciones PACS configuradas. La lista de fuentes está vacía si no hay ninguna Ubicación configurada.
+  - **Local**: Busca en los estudios almacenados en este equipo y los lista todos en cuanto se abre.
+
+  Consulte la [Guía de Búsqueda de Estudios](./study-search.electron.md) para los filtros y para guardar estudios en el almacenamiento local.
 
 - <RiSave3Fill /> **Guardar en Local**: Guarda el estudio abierto en el almacenamiento local. Solo está habilitado para estudios recuperados de un PACS remoto o abiertos desde archivos, ya que los que están en el almacenamiento local no necesitan guardarse. El estudio permanece abierto mientras se guarda.
 
