@@ -13,7 +13,7 @@ Both scopes share the same filters:
 
 - **Source**: which node to query. On the Remote scope it lists the configured PACS Locations, and is empty when none is configured. On the Local scope it is fixed to **Local** and cannot be changed.
 - **Modality**: check one or more modalities, or **All Modalities**.
-- **Date range**: **All Dates**, a preset range (Today, Yesterday, Last Week, Last Month, Last Year), **Custom Date** for a single day, or **Custom Range** between two dates. The two date fields become editable only for the custom options.
+- **Date range**: the Remote scope opens on **Today**, the Local scope on **All Dates**. Choose another preset range (Yesterday, Last Week, Last Month, Last Year), **Custom Date** for a single day, or **Custom Range** between two dates. The two date fields become editable only for the custom options.
 - **Search field**: pick what to match on — Patient ID, Patient Name, Accession Number, Study Description, Referring Physician or Institution Name — and type the value. The text is matched as a partial value, so a fragment is enough.
 
 Press **Search** (or Enter in the text field) to run the query, and **Clear** to reset every filter.

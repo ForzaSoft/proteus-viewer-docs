@@ -13,7 +13,7 @@ Ambos ámbitos comparten los mismos filtros:
 
 - **Fuente**: qué nodo se consulta. En el ámbito Remoto lista las Ubicaciones PACS configuradas, y está vacía si no hay ninguna. En el ámbito Local queda fijada en **Local** y no se puede cambiar.
 - **Modalidad**: marque una o varias modalidades, o **Todas las Modalidades**.
-- **Rango de fechas**: **Todas las Fechas**, un rango predefinido (Hoy, Ayer, Última Semana, Último Mes, Último Año), **Fecha Personalizada** para un solo día o **Rango Personalizado** entre dos fechas. Los dos campos de fecha solo se pueden editar en las opciones personalizadas.
+- **Rango de fechas**: el ámbito Remoto se abre en **Hoy** y el ámbito Local en **Todas las Fechas**. Elija otro rango predefinido (Ayer, Última Semana, Último Mes, Último Año), **Fecha Personalizada** para un solo día o **Rango Personalizado** entre dos fechas. Los dos campos de fecha solo se pueden editar en las opciones personalizadas.
 - **Campo de búsqueda**: elija con qué comparar — ID del Paciente, Nombre del Paciente, Número de Acceso, Descripción del Estudio, Médico Remitente o Nombre de la Institución — y escriba el valor. El texto se compara de forma parcial, así que basta con un fragmento.
 
 Pulse **Buscar** (o Enter en el campo de texto) para ejecutar la consulta, y **Limpiar** para restablecer todos los filtros.
