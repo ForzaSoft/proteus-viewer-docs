@@ -70,11 +70,12 @@ La barra de herramientas proporciona acceso rápido a diversas herramientas y fu
 - <RiRulerFill /> **Medidas**: Cambia al modo Medidas, proporcionando herramientas de medición. El icono refleja la última herramienta seleccionada:
   - <RiRulerFill /> **Longitud**: Mide la distancia entre dos puntos.
   - <BiCircle /> **Elipse**: Mide el área de una elipse y calcula el volumen ROI.
+  - <TbPolygon /> **Polígono**: Dibuja un polígono y mide su área.
   - <TbAngle /> **Ángulo**: Mide el ángulo entre dos líneas.
   - <TbAngle /> **Ángulo de Cobb**: Mide el ángulo de Cobb entre dos líneas.
+  - <TbAngle /> **Ángulo de desviación**: Dibuja un segmento y mide su ángulo respecto a la línea horizontal que pasa por el segundo punto, junto con la distancia vertical (ΔV) entre ambos puntos.
   - <RiArrowRightDownLine /> **Flecha**: Coloca una anotación de flecha direccional.
   - <RiText /> **Texto**: Coloca una anotación de texto libre.
-  - <TbPolygon /> **Polígono**: Dibuja un polígono y mide su área.
   - <RiCrosshair2Line /> **Cruz**: Coloca una anotación de cruz.
   - <RiDeleteBin7Fill /> **Eliminar**: Elimina la medida seleccionada.
   - <RiDeleteBin7Fill /> **Eliminar Todo**: Elimina todas las medidas en la ventana actual.

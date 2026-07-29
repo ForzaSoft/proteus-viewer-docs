@@ -70,11 +70,12 @@ The toolbar provides quick access to various tools and functions for manipulatin
 - <RiRulerFill /> **Measures**: Switches to Measures mode, providing measurement tools. The icon reflects the last selected tool:
   - <RiRulerFill /> **Length**: Measures the distance between two points.
   - <BiCircle /> **Ellipse**: Measures the area of an ellipse and calculates the ROI volume.
+  - <TbPolygon /> **Polygon**: Draws a polygon and measures its area.
   - <TbAngle /> **Angle**: Measures the angle between two lines.
   - <TbAngle /> **Cobb Angle**: Measures the Cobb angle between two lines.
+  - <TbAngle /> **Deviation Angle**: Draws a segment and measures its angle from the horizontal line running through the second point, along with the vertical offset (ΔV) between both points.
   - <RiArrowRightDownLine /> **Arrow**: Places a directional arrow annotation.
   - <RiText /> **Text**: Places a free text annotation.
-  - <TbPolygon /> **Polygon**: Draws a polygon and measures its area.
   - <RiCrosshair2Line /> **Crosshair**: Places a crosshair annotation.
   - <RiDeleteBin7Fill /> **Delete**: Deletes the selected measurement.
   - <RiDeleteBin7Fill /> **Delete All**: Deletes all measurements in the current viewport.
